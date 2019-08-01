@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+    <servlet>
+      <servlet-name>insertServlet</servlet-name>
+      <servlet-class>InsertServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>insertServlet</servlet-name>
+        <url-pattern>/insertServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>deleteServlet</servlet-name>
+      <servlet-class>DeleteServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>deleteServlet</servlet-name>
+        <url-pattern>/deleteServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>deleteByUSNServlet</servlet-name>
+      <servlet-class>DeleteByUSNServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>deleteByUSNServlet</servlet-name>
+        <url-pattern>/deleteByUsnServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>deleteByDeptServlet</servlet-name>
+      <servlet-class>DeleteByDeptServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>deleteByDeptServlet</servlet-name>
+        <url-pattern>/deleteByDeptServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>deleteByNameServlet</servlet-name>
+      <servlet-class>DeleteByNameServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>deleteByNameServlet</servlet-name>
+        <url-pattern>/deleteByNameServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>deleteBySemServlet</servlet-name>
+      <servlet-class>DeleteBySemServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>deleteBySemServlet</servlet-name>
+        <url-pattern>/deleteBySemServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>updateServlet</servlet-name>
+      <servlet-class>UpdateServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>updateServlet</servlet-name>
+        <url-pattern>/updateServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>updateByUsnServlet</servlet-name>
+      <servlet-class>UpdateByUsnServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>updateByUsnServlet</servlet-name>
+        <url-pattern>/updateByUsnServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+      <servlet-name>doUpdateServlet</servlet-name>
+      <servlet-class>DoUpdateServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>doUpdateServlet</servlet-name>
+        <url-pattern>/doUpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    
+     <servlet>
+      <servlet-name>reservation_check_Servlet</servlet-name>
+      <servlet-class>reservation_check_Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>reservation_check_Servlet</servlet-name>
+        <url-pattern>/reservation_check_Servlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>insert_res_Servlet</servlet-name>
+      <servlet-class>insert_res_Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>insert_res_Servlet</servlet-name>
+        <url-pattern>/insert_res_Servlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>insert_pay_Servlet</servlet-name>
+      <servlet-class>insert_pay_Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>insert_pay_Servlet</servlet-name>
+        <url-pattern>/insert_pay_Servlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+     
+     <servlet>
+      <servlet-name>insert_pas_Servlet</servlet-name>
+      <servlet-class>insert_pas_Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>insert_pas_Servlet</servlet-name>
+        <url-pattern>/insert_pas_Servlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+      
+     <servlet>
+      <servlet-name>flightdetailes</servlet-name>
+      <servlet-class>flightdetailes</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>flightdetailes</servlet-name>
+        <url-pattern>/flightdetailes</url-pattern>
+    </servlet-mapping>
+    
+    
+        
+     <servlet>
+      <servlet-name>del_res_Servlet</servlet-name>
+      <servlet-class>del_res_Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>del_res_Servlet</servlet-name>
+        <url-pattern>/del_res_Servlet</url-pattern>
+    </servlet-mapping>
+    
+    
+        
+        
+     <servlet>
+      <servlet-name>del_pas_Servlet</servlet-name>
+      <servlet-class>del_pas_Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>del_pas_Servlet</servlet-name>
+        <url-pattern>/del_pas_Servlet</url-pattern>
+    </servlet-mapping>
+ </web-app>
