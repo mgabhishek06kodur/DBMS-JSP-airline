@@ -1,0 +1,31 @@
+step1: install java
+		sudo apt-get install openjdk-8-jdk
+
+step2: setup JAVA_HOME environment variable
+		sudo gedit /etc/profile
+        enter the following at he bottom of the file
+				export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-i386/bin"
+
+step3: reload file to make changes
+		source /etc/profile
+
+step4: download apache tomcat in /tmp directory
+
+step5: extract to /opt/tomcat directory
+		sudo tar xzvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
+
+step6: setup CATALINA_HOME environment variable
+      sudo gedit /etc/profile
+			enter the following at the bottom of the file
+    			export CATALINA_HOME="/opt/tomcat"
+
+step7: reload file to make changes
+		source /etc/profile
+
+step8: update permissions
+		cd /opt
+		sudo chmod -R a+r tomcat
+		sudo chmod -R a+w tomcat
+		sudo chmod -R a+x tomcat
+
+step9: start tomcat
